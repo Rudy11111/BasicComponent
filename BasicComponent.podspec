@@ -94,6 +94,14 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
+  spec.subspec 'UIKits' do |ss|
+        ss.source_files = "BasicComponent/UIKits/**/*.{h,m}"
+    end
+
+    spec.subspec 'Macro' do |ss|
+        ss.source_files = "BasicComponent/Macro/**/*.{h,m}"
+    end
+
   # spec.public_header_files = "Classes/**/*.h"
 
 

@@ -31,6 +31,7 @@
 		026FA91E23A33F610013C370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		026FA92723A344290013C370 /* UIButton+Setup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Setup.h"; sourceTree = "<group>"; };
 		026FA92823A344290013C370 /* UIButton+Setup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Setup.m"; sourceTree = "<group>"; };
+		028C68FA23A915750026DCCB /* BasicComponentMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicComponentMarco.h; sourceTree = "<group>"; };
 		02BDBAB223A344F50069FA76 /* UILabel+Setup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Setup.h"; sourceTree = "<group>"; };
 		02BDBAB323A344F50069FA76 /* UILabel+Setup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Setup.m"; sourceTree = "<group>"; };
 		86EF5753B0B75AFDC53DF816 /* Pods_BasicComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +76,7 @@
 				026FA91023A33F600013C370 /* AppDelegate.m */,
 				026FA91223A33F600013C370 /* ViewController.h */,
 				026FA91323A33F600013C370 /* ViewController.m */,
+				028C68F923A915510026DCCB /* Marco */,
 				026FA92623A342330013C370 /* UIKits */,
 				026FA92523A342260013C370 /* Http */,
 				026FA91523A33F600013C370 /* Main.storyboard */,
@@ -102,6 +104,14 @@
 				02BDBAB323A344F50069FA76 /* UILabel+Setup.m */,
 			);
 			path = UIKits;
+			sourceTree = "<group>";
+		};
+		028C68F923A915510026DCCB /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				028C68FA23A915750026DCCB /* BasicComponentMarco.h */,
+			);
+			path = Marco;
 			sourceTree = "<group>";
 		};
 		0BDFF0EDA10CDEEDCC200627 /* Pods */ = {
